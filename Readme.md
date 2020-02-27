@@ -23,8 +23,7 @@ $ cat << EOF > "<THE_FILENAME>$(date)<THE_EXT>"
 ```
 
 ## Useful tools
-crosstool
-
+crosstool     
 buildroot
 
 ## Using screen for serial IO
