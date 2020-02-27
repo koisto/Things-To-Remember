@@ -24,9 +24,10 @@ $ cat << EOF > "<THE_FILENAME>$(date)<THE_EXT>"
 
 ## Useful tools
 crosstool
+
 buildroot
 
-# Using screen for serial IO
+## Using screen for serial IO
 
 ```
 $ screen /dev/<console_port> [baud_rate]
