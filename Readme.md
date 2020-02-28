@@ -31,3 +31,6 @@ buildroot
 ```
 $ screen /dev/<console_port> [baud_rate]
 ```
+
+To exit type `Ctrl+A` followed by `:quit` and `Enter`
+
