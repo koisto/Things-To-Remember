@@ -37,10 +37,10 @@ To exit type `Ctrl+A` followed by `:quit` and `Enter`
 ## Adafruit USB to TTL Serial Cable
 
 I always forget the pinout.    
-Signal|Colour
----------------------------------
-+5v USB|Red
-0v USB|Black
-Tx (out)|Green
-Rx (in)|White
+Signal | Colour
+------   ------
++5v USB | Red
+0v USB | Black
+Tx (out) | Green
+Rx (in) | White
 
