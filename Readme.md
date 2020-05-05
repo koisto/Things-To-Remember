@@ -2,7 +2,7 @@
 
 A page of useful links, tools and code snippets.
 
-##  Using sed to out part of a file
+##  Using sed to comment out part of a file
 
 ```
 sed -i '/'"[WORDSTOFIND]"'/ s/^/#/' [FILE]
@@ -14,7 +14,7 @@ sed -i '/'"[WORDSTOFIND]"'/ s/^/#/' [FILE]
 sed -i '/'"[WORDSTOFIND]"'/ s/^#*//' [FILE]
 ```
 
-## Generate a date stamped file in ther terminal and write to it
+## Generate a date stamped file in the terminal and write to it
 
 ```
 $ cat << EOF > "<THE_FILENAME>$(date)<THE_EXT>"
