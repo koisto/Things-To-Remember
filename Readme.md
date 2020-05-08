@@ -17,7 +17,7 @@ sed -i '/'"[WORDSTOFIND]"'/ s/^#*//' [FILE]
 ## Generate a date stamped file in the terminal and write to it
 
 ```
-$ cat << EOF > "<THE_FILENAME>$(date)<THE_EXT>"
+$ cat << EOF > "<THE_FILENAME>$(date +%Y%m%d%H%M%S)<THE_EXT>"
 > [The words]
 > EOF
 ```
